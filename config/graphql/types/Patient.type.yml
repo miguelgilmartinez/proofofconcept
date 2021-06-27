@@ -1,0 +1,15 @@
+Patient:
+    type: object
+    config:
+        fields:
+            id:
+                type: "Int!"
+            name:
+                type: "String!"
+            surname:
+                type: "String!"
+            birthdate:
+                type: "String"
+            email:
+                type: "String"
+            

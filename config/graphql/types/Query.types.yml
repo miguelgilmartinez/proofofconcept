@@ -1,0 +1,8 @@
+Query:
+    type: object
+    config:
+        description: 'Just one query'
+        fields:
+            allPatients:
+                type: '[Patient]'
+                resolve: "@=resolver('all_patients', [args])"

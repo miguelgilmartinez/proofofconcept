@@ -1,0 +1,11 @@
+Heartrate:
+    type: object
+    config:
+        fields:
+            id:
+                type: "Int!"
+            bpm:
+                type: "Int!"
+            date: 
+                type: "String"
+                
