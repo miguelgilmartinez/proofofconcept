@@ -25,7 +25,7 @@ class PatientResolver implements ResolverInterface, AliasedInterface {
 //        foreach ($values as $id => $data) {
 //            die ($data);
 //        }
-        //tEST2
+         
         return $values;
     }
 
