@@ -1,0 +1,9 @@
+DateTime:
+    type: object
+    config:
+        description: "A beautiful date and time string representation"
+        fields:
+            value_eu:
+                type: "String"
+            value_usa:
+                type: "String"
