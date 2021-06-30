@@ -3,7 +3,7 @@ Heartrate:
     config:
         fields:
             id:
-                type: "Int!"
+                type: "ID!"
             bpm:
                 type: "Int!"
                 description: "Beats per minute"

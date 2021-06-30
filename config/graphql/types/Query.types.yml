@@ -12,5 +12,5 @@ Query:
                 args:
                     id:
                         description: 'Resolves using patient id'
-                        type: 'Int'
+                        type: 'ID'
             

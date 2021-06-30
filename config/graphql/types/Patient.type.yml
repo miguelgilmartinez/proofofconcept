@@ -3,7 +3,7 @@ Patient:
     config:
         fields:
             id:
-                type: "Int!"
+                type: "ID!"
             name:
                 type: "String!"
                 description: "Patient's name"
