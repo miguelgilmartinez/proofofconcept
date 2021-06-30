@@ -1,0 +1,14 @@
+# You can use it in your playground
+
+{
+  allPatients {
+    id
+    name
+    heartrates {
+      id
+      bpm
+    }
+  }
+}
+
+
