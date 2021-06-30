@@ -6,6 +6,8 @@ Heartrate:
                 type: "Int!"
             bpm:
                 type: "Int!"
+                description: "Beats per minute"
             date: 
                 type: "String"
+                description: "When the heartrate was measured"
                 

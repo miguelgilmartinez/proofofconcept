@@ -6,3 +6,11 @@ Query:
             allPatients:
                 type: '[Patient]'
                 resolve: "@=resolver('all_patients', [args])"
+            patientById:
+                type: 'Patient'
+                resolve: "@=resolver('patient_by_id', [args])"
+                args:
+                    id:
+                        description: 'Resolves using patient id'
+                        type: 'Int'
+            

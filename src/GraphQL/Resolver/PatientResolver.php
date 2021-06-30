@@ -21,18 +21,19 @@ class PatientResolver implements ResolverInterface, AliasedInterface {
     }
 
     public function findAllPatients(Argument $args) {
-        $values= $this->em->getRepository(Patient::class)->findAll();
-//        foreach ($values as $id => $data) {
-//            die ($data);
-//        }
-         
+        $values = $this->em->getRepository(Patient::class)->findAll();
         return $values;
+    }
+
+    public function findByID(Argument $args) {
+        return $this->em->getRepository(Patient::class)
+                        ->findOneById($args['id']);
     }
 
     public static function getAliases(): array {
         return [
-          
-            'findAllPatients' => 'all_patients'
+            'findAllPatients' => 'all_patients',
+            'findByID' => 'patient_by_id'
         ];
     }
 

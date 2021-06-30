@@ -6,10 +6,13 @@ Patient:
                 type: "Int!"
             name:
                 type: "String!"
+                description: "Patient's name"
             surname:
                 type: "String!"
             birthdate:
                 type: "String"
             email:
                 type: "String"
-            
+            heartrates:
+                type: "[Heartrate]"
+                description: "A collection of data about heartrates"
