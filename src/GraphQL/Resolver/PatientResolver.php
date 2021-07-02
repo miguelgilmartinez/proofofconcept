@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description of PatientResolver
+ * Maps GraphQL petitions to Symfony
  *
  * @author miguelgilmartinez@gmail.com
  */
